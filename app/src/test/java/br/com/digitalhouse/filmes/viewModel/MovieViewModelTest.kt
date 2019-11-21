@@ -5,6 +5,7 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import br.com.digitalhouse.filmes.model.Movie
 import br.com.digitalhouse.filmes.model.MovieResult
 import br.com.digitalhouse.filmes.repository.MovieRepository
+import br.com.digitalhouse.filmes.ui.movie.MovieViewModel
 import io.reactivex.Scheduler
 import io.reactivex.Single
 import io.reactivex.android.plugins.RxAndroidPlugins

@@ -1,4 +1,4 @@
-package br.com.digitalhouse.filmes.view.movie
+package br.com.digitalhouse.filmes.ui.movie
 
 
 import android.os.Bundle
@@ -19,7 +19,7 @@ class MovieDetailFragment : Fragment() {
         val TAG: String = MovieDetailFragment::class.java.simpleName
         private val MOVIE = "movie"
 
-        fun newInstance(movie: Movie):MovieDetailFragment{
+        fun newInstance(movie: Movie): MovieDetailFragment {
             val args = Bundle()
             args.putSerializable(MOVIE, movie)
             val fragment = MovieDetailFragment()

@@ -1,4 +1,4 @@
-package br.com.digitalhouse.filmes.viewModel
+package br.com.digitalhouse.filmes.ui.movie
 
 import android.view.View
 import androidx.lifecycle.MutableLiveData

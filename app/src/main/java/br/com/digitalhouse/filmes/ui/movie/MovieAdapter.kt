@@ -1,4 +1,4 @@
-package br.com.digitalhouse.filmes.view.movie
+package br.com.digitalhouse.filmes.ui.movie
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
