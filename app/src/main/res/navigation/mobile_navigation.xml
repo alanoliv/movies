@@ -25,11 +25,24 @@
         tools:layout="@layout/fragment_movie_detail" />
     <!-- Fim Fragments Filmes -->
 
+    <!-- Fragments Gallery -->
     <fragment
         android:id="@+id/nav_gallery"
         android:name="br.com.digitalhouse.filmes.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_gallery_detail"
+            app:destination="@id/nav_gallery_datail"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery_datail"
+        android:name="br.com.digitalhouse.filmes.ui.gallery.GalleryDetailFragment"
+        android:label="@string/details"
+        tools:layout="@layout/fragment_detail_gallery" />
+    <!-- Fim Fragments Gallery -->
 
     <fragment
         android:id="@+id/nav_slideshow"

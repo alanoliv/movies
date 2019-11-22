@@ -40,7 +40,10 @@ class GalleryFragment : Fragment() {
 
     private fun bindMovies() {
         binding.recyclerviewgallery.adapter = GalleryAdapter(arrayListOf()) { movie ->
-
+            val bundle = Bundle().apply {
+                this.putSerializable("movie", movie)
+            }
+            findNavController().navigate(R.id.action_gallery_detail, bundle)
         }
         binding.recyclerviewgallery.layoutManager = GridLayoutManager(context, 2)
         viewModel.getAllMovies(1)
