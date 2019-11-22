@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/wappamac01/Documents/Projetos/movies/app/src/debug/java;/Users/wappamac01/Documents/Projetos/movies/app/src/release/kotlin;/Users/wappamac01/Documents/Projetos/movies/app/src/release/java;/Users/wappamac01/Documents/Projetos/movies/app/src/debugAndroidTest/kotlin;/Users/wappamac01/Documents/Projetos/movies/app/src/debugUnitTest/kotlin;/Users/wappamac01/Documents/Projetos/movies/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/debug/java;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/release/kotlin;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/release/java;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/debugAndroidTest/kotlin;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/debugUnitTest/kotlin;/Users/wappamac01/Documents/Projetos/DigitalHouseBrasil-Filmes/mvvm-dagger2-rxjava/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
