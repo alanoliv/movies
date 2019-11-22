@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import br.com.digitalhouse.filmes.HomeActivity
 import br.com.digitalhouse.filmes.R
 import br.com.digitalhouse.filmes.databinding.FragmentDetailGalleryBinding
 import br.com.digitalhouse.filmes.databinding.FragmentGalleryBinding
@@ -48,6 +49,12 @@ class GalleryDetailFragment : Fragment() {
 
         arguments?.let {
             this.movie = it.getSerializable(MOVIE) as Movie
+
+            val homeActivity = activity as HomeActivity
+            movie.apply {
+                homeActivity.titleToolbar(title)
+            }
+
             dataBinding.movie = movie
         }
     }

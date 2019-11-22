@@ -13,6 +13,7 @@ import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.navigateUp
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_home.*
+import kotlinx.android.synthetic.main.app_bar_home.*
 
 class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -38,6 +39,12 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         //nav_view.setupWithNavController(navController)
         //https://stackoverflow.com/questions/58263929/im-having-an-issue-in-navigation-view-item-click-listener-in-androidx
         nav_view.setNavigationItemSelectedListener(this)
+    }
+
+    fun titleToolbar(title: String?) {
+        title?.apply {
+            toolbar.title = this
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
