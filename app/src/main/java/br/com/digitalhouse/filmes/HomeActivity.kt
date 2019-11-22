@@ -9,8 +9,8 @@ import androidx.appcompat.widget.Toolbar
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -33,7 +33,8 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             ), drawer_layout
         )
 
-        setupActionBarWithNavController(navController, appBarConfiguration)
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
+        NavigationUI.setupWithNavController(nav_view, navController)
         //nav_view.setupWithNavController(navController)
         //https://stackoverflow.com/questions/58263929/im-having-an-issue-in-navigation-view-item-click-listener-in-androidx
         nav_view.setNavigationItemSelectedListener(this)
