@@ -8,7 +8,7 @@
     <!-- Fragments Filmes -->
     <fragment
         android:id="@+id/nav_movie"
-        android:name="br.com.digitalhouse.filmes.ui.movie.MovieFragment"
+        android:name="br.com.movies.ui.movie.MovieFragment"
         android:label="@string/movies"
         tools:layout="@layout/movie_fragment" >
 
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/nav_movie_datail"
-        android:name="br.com.digitalhouse.filmes.ui.movie.MovieDetailFragment"
+        android:name="br.com.movies.ui.movie.MovieDetailFragment"
         android:label="@string/details"
         tools:layout="@layout/fragment_movie_detail" />
     <!-- Fim Fragments Filmes -->
@@ -28,7 +28,7 @@
     <!-- Fragments Gallery -->
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="br.com.digitalhouse.filmes.ui.gallery.GalleryFragment"
+        android:name="br.com.movies.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" >
         <action
@@ -39,20 +39,20 @@
 
     <fragment
         android:id="@+id/nav_gallery_datail"
-        android:name="br.com.digitalhouse.filmes.ui.gallery.GalleryDetailFragment"
+        android:name="br.com.movies.ui.gallery.GalleryDetailFragment"
         android:label="@string/details"
         tools:layout="@layout/fragment_detail_gallery" />
     <!-- Fim Fragments Gallery -->
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="br.com.digitalhouse.filmes.ui.slideshow.SlideshowFragment"
+        android:name="br.com.movies.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="br.com.digitalhouse.filmes.ui.tools.ToolsFragment"
+        android:name="br.com.movies.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 

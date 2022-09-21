@@ -6,7 +6,7 @@
     <data>
         <variable
             name="movie"
-            type="br.com.digitalhouse.filmes.model.Movie" />
+            type="br.com.movies.model.Movie" />
     </data>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

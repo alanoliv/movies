@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="br.com.digitalhouse.filmes.ui.movie.MovieViewModel" />
+            type="br.com.movies.ui.movie.MovieViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
